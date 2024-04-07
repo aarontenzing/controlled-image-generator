@@ -18,3 +18,8 @@ pip3 install torch torchvision torchaudio --index-url https://download.pytorch.o
 🤗 Transformers is required to run the most popular diffusion models, such as Stable Diffusion.
 
 *handige guide: https://thepythoncode.com/article/control-generated-images-with-controlnet-with-huggingface#introduction*
+
+# Models
+
+1. runwayml/stable-diffusion-v1-5 => normal SD doesn't provide us good images
+2. stablediffusionapi/realistic-vision-v20-2047 -> works really well
