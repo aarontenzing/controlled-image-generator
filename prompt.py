@@ -47,7 +47,7 @@ def prompt_generator():
     return f"A medium shot view of {choices(appearance)[0]} {personType} holding a {choices(details1_box)[0]} cardboard box {choices(details2_box)[0]} from {choices(company)[0]} webshop in {pronoun} hands, standing in front of a {choices(background)[0]} background, the weather is {choices(weather)[0]}, high photorealistic quality."
 
 def prompt_generator_no_human():
-    return f"A {choices(shots)[0]} view of a {choices(details1_box)[0]} cardboard box {choices(details2_box)[0]} from {choices(company)[0]} webshop, in front of a {choices(background)[0]} background, the weather is {choices(weather)[0]}, high photorealistic quality."
+    return f"A medium shot view of a {choices(details1_box)[0]} cardboard box {choices(details2_box)[0]} from {choices(company)[0]} webshop, in front of a {choices(background)[0]} background, the weather is {choices(weather)[0]}, high photorealistic quality."
 
 if __name__ == '__main__':
     print(prompt_generator())
